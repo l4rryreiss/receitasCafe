@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Pinyon+Script&display=swap');
+
+body{
+
+background-image: url("img/pagina larry/fundo.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 3000px;
+  font-style: italic;
+}
+
+h1{
+    font-family: "Fontdiner Swanky", serif;
+    font-size: 115px;
+    color: rgb(19, 41, 114);
+    font-weight: 300;
+}
+
+.container {
+   font-family: "Pinyon Script", cursive;
+  font-weight: 800;
+  font-style: normal;
+display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 0px; /* mude para 0 ou um valor pequeno */
+}
+
+.container img {
+ width: 400px;
+    height: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+
+.texto-perfil {
+    flex: 1;             /* Faz o texto ocupar todo o espaço restante ao lado */
+}
+
+.texto-perfil p {
+    font-size: 45px;     /* Ajuste o tamanho da letra como preferir */
+    line-height: 1.6;    /* Melhora a leitura do texto */
+
+}
+
+span {
+    color: rgb(19, 41, 114);
+}
+
+h3
+{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+font-family: "Fontdiner Swanky", serif;
+  font-weight: 400px;
+  font-style: normal;
+}
