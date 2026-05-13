@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body{
+background-color: rgb(247, 214, 125);
+  font-style: italic;
+  text-align: center;
+}
+
+#dec{
+    font-family: 'Henny Penny', system-ui;
+  color: rgb(75, 42, 32);
+ font-size: 25px;
+  font-style: none;
+  text-decoration: none;
+}
+img {
+ width: 500px;
+    height: 500px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+audio{
+  filter: invert(100%) hue-rotate(180deg) brightness(1.5);
+}
+
+h1{
+  font-family: 'Henny Penny', system-ui;
+  color: rgb(75, 42, 32);
+ background-color: rgb(219, 169, 93);
+ font-size: 75px;
+}
+h3{
+  font-family: 'Henny Penny', system-ui;
+  color: rgb(255, 255, 255);
+ font-size: 40px;
+ font-style: italic;
+ text-decoration: underline;
+
+}
+
+.conteudo-principal {
+    background-color:rgb(75, 42, 32); /* Uma cor levemente diferente ou a mesma do fundo */
+    max-width: 800px;        
+    margin: 0 auto;                
+    margin-top: 0; 
+    padding: 20px 0; 
+    width: 100%;
+
+
+}
+
+p{
+  font-family: 'Henny Penny', system-ui;
+  color: rgb(219, 169, 93);
+ font-size: 30px;
+ padding: 50px
+ 
+}
+ 
+.github{
+  width: 80px;
+    height: 80px;
+    text-align: left;
+}

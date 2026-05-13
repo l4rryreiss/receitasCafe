@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body{
+   
+  background-color: rgb(247, 214, 125);
+  font-style: italic;
+  text-align: center;
+}
+
+
+.titulo
+{
+  background-color: rgb(219, 169, 93);
+  font-size: 100px;
+  
+  color: rgb(75, 42, 32);
+}
+
+
+.tomar{
+  font-family: "Henny Penny", system-ui;
+  font-size: 25px;
+  font-style: bold;
+}
+li{
+font-family: "Henny Penny", system-ui;
+ color: rgb(75, 42, 32);
+ font-size: 25px;
+ 
+}
+
+.detalhe{
+font-size: 50px;
+}
+
+h1{
+  font-family: "Henny Penny", system-ui;
+}
+
+
+p{
+  font-family: "Henny Penny", system-ui;
+  color: rgb(75, 42, 32);
+  font-size: 25px;
+ line-height:40px;
+
+}
+
+
+h2
+{
+   font-family: "Henny Penny", system-ui;
+ color: rgb(75, 42, 32);
+ background-color: rgb(219, 169, 93);
+}
+
+h3
+{
+   font-family: "Henny Penny", system-ui;
+ color: rgb(75, 42, 32);
+ background-color: rgb(219, 169, 93);
+ font-size:75px;
+}
+
+a:link {
+  color: rgb(23, 83, 122);
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer
+{
+  font-family: "Henny Penny", system-ui;
+   color: rgb(75, 42, 32);
+   background-color: rgb(219, 169, 93);
+   font-style: bold;
+}
+
+ul {
+    display: inline-block; 
+    text-align: center;      
+  list-style-type: square
+}
